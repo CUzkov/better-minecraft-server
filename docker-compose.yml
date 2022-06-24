@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+    server:
+        build: .
+        volumes:
+            - /home/cuzkov/world:/usr/src/server/world
+        ports:
+            - 25565:25565
