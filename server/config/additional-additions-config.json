@@ -1,0 +1,42 @@
+{
+  "version": 7,
+  "GildedNetherite": true,
+  "Wrench": true,
+  "EnchantmentPrecision": true,
+  "EnchantmentSpeed": true,
+  "CompostableRottenFlesh": true,
+  "GlowStick": true,
+  "MysteriousBundle": true,
+  "Crossbows": true,
+  "MusicDiscs": true,
+  "RoseGold": false,
+  "WateringCan": true,
+  "CopperPatina": true,
+  "Ropes": true,
+  "TridentShard": true,
+  "NoteBlockAmethystSounds": true,
+  "PoweredRailsCopperRecipe": true,
+  "ChickenNugget": true,
+  "GoldRing": true,
+  "ShipwreckSpyglassLoot": true,
+  "PocketJukebox": true,
+  "GlowBerryEatGlow": {
+    "enabled": true,
+    "duration": 5
+  },
+  "HastePotions": true,
+  "BundleRecipe": true,
+  "FoodItems": {
+    "FriedEgg": true,
+    "BerryPie": true,
+    "HoneyedApple": true
+  },
+  "DepthMeter": {
+    "enabled": true,
+    "displayElevationAlways": false
+  },
+  "AmethystLamp": {
+    "enabled": true,
+    "despawnChance": 0.5
+  }
+}
