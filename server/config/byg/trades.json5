@@ -10,6 +10,55 @@ to make editing this file much easier.
 {
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
+		"advancedperipherals:computer_scientist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:alchemist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:nightwatcher": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:shoveler": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:stargazer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:summoner": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"blue_skies:wrangler": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
 		"byg:forager": {
 			"1": [
 				{
@@ -46,7 +95,7 @@ to make editing this file much easier.
 						"cost": 8,
 						"item": "byg:wood_blewit",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -55,7 +104,7 @@ to make editing this file much easier.
 						"cost": 8,
 						"item": "byg:white_puffball_cap",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -67,7 +116,7 @@ to make editing this file much easier.
 						"item": "byg:white_puffball_spores",
 						"max_uses": 4,
 						"number_of_items": 5,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -76,7 +125,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:crimson_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -85,7 +134,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "minecraft:warped_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -94,7 +143,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:sythian_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:emerald_for_items"
 				}
@@ -106,7 +155,7 @@ to make editing this file much easier.
 						"item": "byg:witch_hazel_branch",
 						"max_uses": 4,
 						"number_of_items": 9,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				},
@@ -116,7 +165,7 @@ to make editing this file much easier.
 						"item": "byg:witch_hazel_blossom",
 						"max_uses": 10,
 						"number_of_items": 1,
-						"villager_xp": 2
+						"villager_xp": 3
 					},
 					"type": "byg:items_for_emeralds"
 				}
@@ -127,7 +176,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:imparius_mushroom",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -136,7 +185,7 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:shulkren_fungus",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				},
@@ -145,11 +194,53 @@ to make editing this file much easier.
 						"cost": 10,
 						"item": "byg:fungal_imparius",
 						"max_uses": 12,
-						"villager_xp": 2
+						"villager_xp": 4
 					},
 					"type": "byg:emerald_for_items"
 				}
 			]
+		},
+		"evilcraft:werewolf": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"immersiveengineering:electrician": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"immersiveengineering:engineer": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"immersiveengineering:gunsmith": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"immersiveengineering:machinist": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"immersiveengineering:outfitter": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
 		},
 		"minecraft:armorer": {
 			"1": [],
@@ -415,6 +506,20 @@ to make editing this file much easier.
 			"5": []
 		},
 		"minecraft:weaponsmith": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"pneumaticcraft:mechanic": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+		"silentgear:gear_smith": {
 			"1": [],
 			"2": [],
 			"3": [],

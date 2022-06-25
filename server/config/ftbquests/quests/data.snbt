@@ -1,11 +1,11 @@
 {
 	version: 13
-	title: "Better Minecraft [FABRIC] 1.18.2"
-	icon: "ftbquests:book"
+	title: "All the Mods 7"
+	icon: "allthetweaks:atm_star"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
-	default_quest_shape: "rsquare"
+	default_quest_shape: "circle"
 	default_quest_disable_jei: false
 	emergency_items_cooldown: 300
 	drop_loot_crates: false
