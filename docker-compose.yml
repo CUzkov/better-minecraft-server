@@ -4,6 +4,7 @@ services:
     server:
         build: .
         stdin_open: true
+        tty: true
         volumes:
             - /home/cuzkov/world:/usr/src/server/world
         ports:
