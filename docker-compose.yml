@@ -6,6 +6,5 @@ services:
         stdin_open: true
         volumes:
             - /home/cuzkov/world:/usr/src/server/world
-            - /home/cuzkov/ops.json:/usr/src/server/ops.json
         ports:
             - 25565:25565
