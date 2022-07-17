@@ -13,7 +13,7 @@ OTHERARGS="-Dlog4j2.formatMsgNoLookups=true"
 if [[ ! -s "fabric-server-launch.jar" ]];then
 
   echo "Fabric Server JAR-file not found. Downloading installer...";
-  wget -O fabric-installer.jar https://maven.fabricmc.net/net/fabricmc/fabric-installer/$INSTALLER/fabric-installer-$INSTALLER.jar;
+  curl https://maven.fabricmc.net/net/fabricmc/fabric-installer/$INSTALLER/fabric-installer-$INSTALLER.jar --output fabric-installer.jar ;
 
   if [[ -s "fabric-installer.jar" ]];then
 
@@ -36,7 +36,7 @@ fi
 
 if [[ ! -s "server.jar" ]];then
   echo "Minecraft Server JAR-file not found. Downloading...";
-  wget -O server.jar Optional[https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar];
+  curl https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar --output server.jar ;
 else
   echo "server.jar present. Moving on...";
 fi
